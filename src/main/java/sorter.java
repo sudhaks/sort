@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class sorter {
         public static void main(String[] args)  throws Exception {
             int a[] = {6, 7, 1, 2, 4, 5, 3};
-            int b[];
             int temp;
             for (int j = 0; j < a.length; j++) {
                 for (int i = 1; i < a.length; i++) {
