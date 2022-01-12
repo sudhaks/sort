@@ -13,7 +13,7 @@ public class sorter {
                         a[i - 1] = a[i];
                         a[i] = temp;
                     }
-                }System.out.println("Sorted array = "+j+ "\t" + Arrays.toString(a));
+                }//System.out.println("Sorted array = "+j+ "\t" + Arrays.toString(a));
             }
             System.out.println("Sorted array = " + Arrays.toString(a) +
                     "median = " + a[a.length / 2]);
